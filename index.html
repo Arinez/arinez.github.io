@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Aríñez está de fiestas</title>
+  <meta name="author" content="Cristian Suárez Vera"/>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!--Bootstrap JS-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+          crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+          crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#">Aríñez</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#events">Eventos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#location">Ubicación</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#sugestions">Sugerencias</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#promotional-video">Video</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>Aríñez, mirador de gran canaria</h1>
+  <p>En Aríñez nos gusta las fiestas y pasarlo bien [...]</p>
+
+  <span id="events"></span>
+  <h2>Calendario de eventos</h2>
+  <p>Aquí tienes nuestra agenda de eventos, puedes añadir este caledario a tu teléfono y estar siempre el día.</p>
+  <p>O si lo prefieres puedes visitarnos y consultar cual será el siguiente, nosotros no nos moveremos de aquí!</p>
+  <iframe
+      src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=11jncnn0k85399j45iuq3qv7ag%40group.calendar.google.com&amp;color=%232F6309&amp;ctz=Atlantic%2FCanary"
+      style="border-width:0"
+      width="800"
+      height="600"
+      frameborder="0"
+      scrolling="no"></iframe>
+
+  <span id="location"></span>
+  <h2>¿Dónde estamos?</h2>
+  <p>Hay personas que nos pregunta dónde estámos, no se como no pueden saberlo... Pero por si acaso quede algún perdido aún, aquí le dejamos un mapa.</p>
+  <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2094.3276251561524!2d-15.568880324677286!3d28.017592480882165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc4091b70769007d%3A0x9331d8d8e1239921!2s35328+Ari%C3%B1ez%2C+Las+Palmas!5e0!3m2!1ses!2ses!4v1525618256342"
+      width="600"
+      height="450"
+      frameborder="0"
+      style="border:0"
+      allowfullscreen></iframe>
+
+  <span id="sugestions"></span>
+  <h2>Sugerencias</h2>
+  <p>Siempre estámos dispuestos a mejorar, cualquier sugerencia será de ayuda. Si tiene una idea que darnos o propuesta para el futuro no lo dude y hagalo.</p>
+  <p>Solo tiene que entrar en el <a href="https://docs.google.com/forms/d/172loUTYDOYL0j3CDd4ymgbVY0tnZqET5Eh7W75uuLs4/edit">siguiente enlace</a></p>
+
+  <span id="promotional-video"></span>
+  <h2>Vídeo promocional</h2>
+  <iframe
+      class="video"
+      width="560" height="315" src="https://www.youtube.com/embed/q-bqLMM8wbA?rel=0&amp;showinfo=0"
+      frameborder="0"
+      allow="autoplay;
+      encrypted-media"
+      allowfullscreen></iframe>
+</div>
+</body>
+</html>
